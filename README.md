@@ -1,1 +1,1 @@
-# impage-processing-api
+# image-processing-api
