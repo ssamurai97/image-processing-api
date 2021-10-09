@@ -1,7 +1,7 @@
 # Image-Processing-Api
 
-
-###project dependencies 
+![default image](full_images/santamonica.jpg)
+## project dependencies 
 
 project uses nodejs and typescript
 
@@ -22,3 +22,7 @@ project uses nodejs and typescript
 to run prettier 
 
  `npm run prettier`
+
+
+
+default endpoint `http://localhost:3000/api/images?filename=santamonica&width=400&height=200`
