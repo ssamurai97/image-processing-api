@@ -13,7 +13,7 @@ async function convert_image(
   try {
     await sharp(fullPath)
       .resize(width, height)
-      .toFile('./thumb/' + name + '_' + width + '_' + height + '.jpg')
+      .toFile('thumb/..' + name + '_' + width + '_' + height + '.jpg')
     return 'success'
   } catch (error) {
     return 'error'

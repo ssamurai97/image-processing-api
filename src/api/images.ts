@@ -19,8 +19,9 @@ const displayMessage = `Please choose from these images:
 
 console.log(displayMessage)
 
-const thumbPath = path.join(__dirname, '../../thumb/')
+const thumbPath = path.join(__dirname, '../../../thumb/')
 
+console.log(thumbPath)
 images.get('/', async (req: express.Request, res: express.Response) => {
   const width = Number(req.query.width)
   const height = Number(req.query.height)
