@@ -3,7 +3,7 @@ import path from 'path'
 
 let fullimagesPath = path.join(__dirname, '../../full_images/')
 
-console.log('-------------', fullimagesPath)
+console.log(`------ full_images path is: ${fullimagesPath}------------\n\n`)
 async function convert_image(
   name: string,
   width: number,
