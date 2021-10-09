@@ -2,7 +2,8 @@
   "extends": "@tsconfig/node14/tsconfig.json",
 
    "compilerOptions": {
-     "outDir": "./dist"
+     "outDir": "./dist",
+     "noImplicitAny": true
    },
  "exclude": ["node_modules", "dist"]
 }
