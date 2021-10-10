@@ -10,7 +10,6 @@ function imageExists(
   const folderPath = '../../' + folder + '/'
   const filePath = path.join(__dirname, folderPath)
   let fileName = ''
-  console.log('file path', filePath)
   if (folder === 'thumb') {
     fileName = name + '_' + width + '_' + height + '.jpg'
   } else if (folder === 'full_images') {
@@ -22,7 +21,7 @@ function imageExists(
     return true
   }
   fs.access(filePath + fileName, (err) => {
-    return !err
+    return !err;
   })
   return false
 }
